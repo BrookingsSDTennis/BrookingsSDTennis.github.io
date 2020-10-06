@@ -23,7 +23,7 @@
     <body>
         <!--Navbar-->
         <ul class="topnav">
-            <li><a href="welcome.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a class="active">Points</a></li>
             <li><a href="new2.php">New</a></li>
             <li><a href="" onclick="pageUnderConstruction()">Photos</a></li>
@@ -34,7 +34,7 @@
             <?php endif ?>
 
             <?php if (isset($_SESSION['username'])): ?>
-                <li class="login "><a href="welcome.php?logout='1'" style="color: red;">Logout</a></li>
+                <li class="login "><a href="index.php?logout='1'" style="color: red;">Logout</a></li>
                 <li class="login welcome">Welcome <strong><?php echo $_SESSION['username']; ?></li>
             <?php endif ?>
         </ul>

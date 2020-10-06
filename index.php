@@ -25,7 +25,7 @@
             <?php endif ?>
 
             <?php if (isset($_SESSION['username'])): ?>
-                <li class="login "><a href="welcome.php?logout='1'" style="color: red;">Logout</a></li>
+                <li class="login "><a href="index.php?logout='1'" style="color: red;">Logout</a></li>
                 <li class="login welcome">Welcome <strong><?php echo $_SESSION['username']; ?></strong></li>
             <?php endif ?>
 

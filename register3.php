@@ -14,7 +14,7 @@
     <body>
         <!--Navbar-->
         <ul class="topnav">
-            <li><a href="welcome.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="index2.php">Points</a></li>
             <li><a href="new2.php">New</a></li>
             <li><a href="#shop">TennisWarehouse.com</a></li>
